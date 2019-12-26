@@ -6,7 +6,6 @@ session_start();
 
 /**
  * FUNÇÃO responsável pelo PHPMailer
- * 
  */
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
