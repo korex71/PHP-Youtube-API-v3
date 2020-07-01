@@ -56,7 +56,7 @@ if (isset($_POST['submit']) )
   {
     $str = strtr($keyword," ","+");
     $results = 15;
-    $apikey = 'AIzaSyAe0_ZCrJeRlDMXi3YWC-p_hKF_pMJQUlk'; 
+    $apikey = 'Sua_API'; 
     $googleApiUrl = 'https://www.googleapis.com/youtube/v3/search?part=snippet&q=' . $str . '&maxResults=' . $results . '&key=' . $apikey;
 
     $ch = curl_init();
