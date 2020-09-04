@@ -24,7 +24,6 @@
          
 ?>
 <h2>Search Videos by keyword using YouTube Data API V3</h2>
-<h3>Bem vindo: <?php echo $user_name; ?></h3>
 <div class="search-form-container">
     <form id="keywordForm" method="post" action="search.php">
         <div class="input-row">
